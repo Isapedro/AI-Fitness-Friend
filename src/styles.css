@@ -1,18 +1,22 @@
 body{
-margin: 0;
+
   font-family: "Handlee";
   text-align: center;
-}
-.container{
-  background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.3)),url(../src/images/woman-sport-activities_102902-2337.jpg) ;
+background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.3)),url(../src/images/woman-sport-activities_102902-2337.jpg) ;
   background-repeat: no-repeat;
   background-size:cover;
+
+}
+.container{
+  max-width: 900px;
   padding: 30px;
-  display: block;
+  
+  margin: 120px auto;
+
   
   
 }
-header{
+header, form {
   width: 900px;
   margin: 50px auto;
   border: 3px solid #c66394;
@@ -27,7 +31,7 @@ h1{
  margin-bottom: 0;
  color: #8ddaeb;
  text-shadow: 3px 3px 3px black;
- 
+ line-height: 1.5;
 
 }
 h3{
@@ -36,10 +40,12 @@ text-shadow: 1px 1px 1px #8ddaeb;
 margin: 5px;
 padding-bottom: 5px;
 }
-header p{
-padding: 15px;
-  font-size: 30px;
-  font-family: "Roboto", sans-serif;
+
+
+form p {
+  font-size: 35px;
+  
+  text-shadow: 3px 3px 3px #8ddaeb;
 }
   .logo i {
     color: #c66394;
@@ -50,6 +56,7 @@ padding: 15px;
     margin: 20px;
 box-shadow: 2px 2px 2px black;
   }
+.input
 
 footer{
   font-size: 20px;
