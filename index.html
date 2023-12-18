@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Roboto+Condensed:wght@500&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/240d578970.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
   <div class="container">
@@ -25,7 +26,7 @@
 <main>
   <p><strong> Type in the area you want to workout today, and get a 15-minute workout tailored to your needs!</strong></p>
     
-  <form>
+  <form id="exercise-generator">
     
     <input type="text" class="input" required placeholder="Legs?... Abs?... Booty?..." autofocus autocomplete="off"/>
     <input type="submit" class="button" value="Let's go!"/>
@@ -33,7 +34,7 @@
   </form>
   </main>
   <section>
-  <div class="quote">Your exercise will show here...</div>
+  <div class="quote" id="exercise"></div>
 </section>
 </div>
   <footer> This AI project is coded by <a href="https://www.linkedin.com/in/isa-pedro92/" target="_blank"> Anaisa Pedro</a> and is open sourced on <a href="https://github.com/Isapedro/AI-Quote-Generator" target="_blank" > GitHub</a> </footer>
