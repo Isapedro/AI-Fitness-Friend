@@ -29,7 +29,7 @@ header, main, section {
   border-radius: 10px;
   padding: 10px;
   background: rgb(184,21,102);
-background: radial-gradient(circle, rgba(184,21,102,0.6) 1%, rgba(0,212,255,0.3) 100%);
+background: radial-gradient(circle, rgba(184,21,102,0.4) 1%, rgba(0,212,255,0.3) 100%);
 }
 
 h1{
@@ -56,7 +56,8 @@ form {
 main p {
   font-size: 35px;
 font-weight: bolder;
-  text-shadow: 1px 1px 3px #c66394;
+color: black;
+  text-shadow: 1px 1px 3px rgb(245, 242, 242);
 }
   .logo i {
     color: #c66394;
@@ -65,7 +66,7 @@ font-weight: bolder;
     padding: 5px;
     font-size: 50px;
     margin: 20px;
-box-shadow: 2px 2px 2px black;
+box-shadow: 2px 2px 2px #3C3C3C;
 
   }
 .input{
@@ -74,30 +75,37 @@ box-shadow: 2px 2px 2px black;
   margin: 9px 0;
   border-radius: 25px;
    border: 1px solid #c66394;
-  background-color:rgba(0,212,255,0.3);
-  box-shadow: 1px 1px 2px black;
+  background-color: rgba(245, 242, 242, 0.615);
+  box-shadow: 2px 2px 2px #c66394;
   font-size: 20px;
 
  
 }
  ::placeholder{
-  color: black;
-  text-shadow: 1px 1px 1px #c66394;
+  color: #3C3C3C;
+  text-shadow: 1px 1px 1px rgb(245, 242, 242);
   font-weight: lighter;
   text-align: center;
+  font-family: "Handlee";
+  font-size: 25px;
+  
+  
  }
 .button{
   
   padding: 13px 25px;
-  width: 30%;
+  width: 25%;
   margin: 9px 0;
-  border-radius:25px;
+  border-radius: 25px;
   border: 1px solid #c66394;
-  background-color:rgba(0,212,255,0.3);
-  box-shadow: 1px 1px 2px black;
-  color : black;
+  background-color: rgba(245, 242, 242, 0.615);
+  box-shadow: 2px 2px 2px #c66394;
+  color: #8ddaeb;
   font-size: 30px;
- text-shadow: 1px 1px 1px #c66394;
+ text-shadow: 2px 2px 2px #3C3C3C;
+ font-family: "Handlee";
+ font-weight: bolder;
+ cursor: pointer;
  
 }
 
@@ -108,5 +116,19 @@ section{
 
 
 footer{
-  font-size: 20px;
+  display: inline;
+  font-size: 24px;
+  margin-top: 30px;
+  font-weight: bolder;
+  background-color: rgba(245, 242, 242, 0.615);
+  border-radius: 5px;
+border: 1px solid #c66394;
+box-shadow: 2px 2px 2px #c66394;
+
+}
+footer a{
+  color: #8ddaeb;
+  text-shadow: 1px 1px 1px #3C3C3C;
+  text-decoration: none;
+  cursor: pointer;
 }
