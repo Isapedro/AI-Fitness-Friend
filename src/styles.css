@@ -109,20 +109,36 @@ box-shadow: 2px 2px 2px #3C3C3C;
   
   font-size: 30px;
   line-height: 2;
-   text-shadow: 1px 1px 3px rgb(245, 242, 242);
+   text-shadow: 1px 1px 3px rgb(233, 133, 133);
    font-weight: bolder;
+  
 }
 
-.exercise strong {
-  color:#c66394;
-  font-weight: bolder;
-  text-shadow: 1px 1px 1px #3C3C3C;
-  background-color:  rgba(245, 242, 242, 0.615);
-  border-radius: 5px;
+  
+
+.exercise p{
+  font-size: 30px;
+  color: black;
+text-shadow: 1px 1px 1px rgb(245, 242, 242);
+font-weight: bolder;
+text-align: left;
+background-color: rgba(245, 242, 242, 0.615);
+box-shadow: 2px 2px 2px #c66394;
+border-radius: ;
 }
-/* .hidden{
+
+
+.exercise ol, ul {
+   list-style: none;
+   text-shadow: 1px 1px 1px rgb(245, 242, 242);
+  
+}
+.exercise li{
+   text-align: left;
+}
+.hidden{
   display: none;
-}  */
+}  
 
 
 
@@ -147,4 +163,26 @@ footer a{
   text-decoration: none;
   cursor: pointer;
   ;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.blink i{
+color: #c66394;
+    background-color: #8ddaeb;
+    border-radius: 25px;
+    padding: 5px;
+     margin: 20px;
+box-shadow: 2px 2px 2px #3C3C3C;
 }
