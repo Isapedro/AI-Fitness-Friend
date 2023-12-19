@@ -14,11 +14,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  margin: 0;
-  padding: 0;
+  
+  
 }
 
 .container {
+  
   width: 90%;
   margin: 50px auto;
   max-width: 1000px;
@@ -27,7 +28,8 @@ body {
 header,
 main,
 section {
-  width: 900px;
+max-width: 90%;
+  width: 100%;
   margin-top: 50px;
   border: 3px solid var(--clr-primary);
   box-shadow: 2px 2px 2px var(--clr-primary);
@@ -192,11 +194,13 @@ h3{
 header,
 main,
 section {
-  width: 360px;
- 
+  width: 100%; 
+    max-width: 90%; 
+    margin: 10px auto;
 }
 .container{
-  width: 90%;
+    width: 90%;
+    max-width: none; 
   margin: 0 auto;
   padding: 0 ;
   
@@ -217,7 +221,7 @@ form{
 }
 ::placeholder {
   
-  font-size: 10px;
+  font-size: 5px;
 }
 .button{
   padding: 5px;
@@ -264,11 +268,14 @@ h3{
 header,
 main,
 section {
-width: 90%;
+width: 90%; 
+    max-width: 100%; 
+    margin: 10 auto;
  
 }
 .container{
-  
+    width: 90%;
+    max-width: none; 
   margin: 0 auto;
   padding: 0 ;
   
