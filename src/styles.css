@@ -158,6 +158,9 @@ footer a {
 .blink {
   animation: blink-animation 1s steps(5, start) infinite;
   -webkit-animation: blink-animation 1s steps(5, start) infinite;
+color: var(--clr-text);
+  text-shadow: 1px 1px 3px var(--shadow-secondary);
+
 }
 @keyframes blink-animation {
   to {
@@ -244,6 +247,77 @@ width:300px;
   
   padding: 5px;
   font-size: 30px;
+  margin: 10px;
+  
+}
+}
+@media (max-width: 1024px) {
+
+
+h1{
+    font-size: 40px;
+  }
+h3{
+  font-size: 30px;
+}
+
+header,
+main,
+section {
+  width: 580px;
+ 
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 ;
+  
+
+}
+main p{
+  font-size: 30px;
+}
+form{
+  margin-bottom: 10px;
+}
+.input{
+  padding: 5px;
+  margin: 0;
+  font-size: 25px;
+  width: 50%;
+  height: 30px;
+}
+::placeholder {
+  
+  font-size: 20px;
+}
+.button{
+  padding: 5px;
+  margin: 0;
+  font-size: 20px;
+  width: 30%;
+  height: 40px;
+}
+.exercise{
+  font-size: 25px;
+  line-height: 1;
+}
+
+.Typewritter_wrapper{
+width:300px;
+  height: 300px;
+  padding: 0;
+  margin: 0 auto;
+}
+  footer{
+    font-size: 15px;
+   
+  }
+
+.logo i {
+  
+  padding: 5px;
+  font-size: 35px;
   margin: 10px;
   
 }
