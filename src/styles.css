@@ -158,9 +158,8 @@ footer a {
 .blink {
   animation: blink-animation 1s steps(5, start) infinite;
   -webkit-animation: blink-animation 1s steps(5, start) infinite;
-color: var(--clr-text);
+  color: var(--clr-text);
   text-shadow: 1px 1px 3px var(--shadow-secondary);
-
 }
 @keyframes blink-animation {
   to {
@@ -182,7 +181,7 @@ color: var(--clr-text);
 }
 
 
-@media (min-width: 700px) {
+@media (max-width: 700px) {
   h1{
     font-size: 30px;
   }
@@ -193,8 +192,7 @@ h3{
 header,
 main,
 section {
-  width: 380px;
-  
+  width: 360px;
  
 }
 .container{
@@ -205,7 +203,7 @@ section {
 
 }
 main p{
-  font-size: 20px;
+  font-size: 15px;
 }
 form{
   margin-bottom: 10px;
@@ -219,7 +217,7 @@ form{
 }
 ::placeholder {
   
-  font-size: 15px;
+  font-size: 10px;
 }
 .button{
   padding: 5px;
@@ -241,10 +239,8 @@ width:300px;
 }
   footer{
     font-size: 10px;
-   margin-top:10px;
-  
-   text-align: center;
-   
+   margin-right: 0;
+   margin-bottom: 10px;
   }
 
 .logo i {
@@ -268,11 +264,11 @@ h3{
 header,
 main,
 section {
-  width: 580px;
+width: 90%;
  
 }
 .container{
-  width: 90%;
+  
   margin: 0 auto;
   padding: 0 ;
   
@@ -303,25 +299,28 @@ form{
   height: 40px;
 }
 .exercise{
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1;
 }
 
 .Typewritter_wrapper{
-width:300px;
-  height: 300px;
+width:250px;
+  height: 250px;
   padding: 0;
   margin: 0 auto;
 }
   footer{
-    font-size: 15px;
-   
+    font-size: 10px;
+   margin-right: 0;
+   margin-bottom: 10px;
+   text-align: center;
+  
   }
 
 .logo i {
   
   padding: 5px;
-  font-size: 35px;
+  font-size: 30px;
   margin: 10px;
   
 }
