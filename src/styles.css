@@ -213,6 +213,10 @@ form{
   width: 50%;
   height: 30px;
 }
+::placeholder {
+  
+  font-size: 15px;
+}
 .button{
   padding: 5px;
   margin: 0;
